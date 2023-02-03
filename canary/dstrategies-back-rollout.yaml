@@ -15,12 +15,8 @@ spec:
         templates:
         - templateName: dstrategies-back-analysis-template
       steps:
-      - setWeight: 10
-      - pause:
-          duration: 30
-      - setWeight: 50
-      - pause:
-          duration: 30
+      - setWeight: 100
+     
   template:
     metadata:
       labels:
